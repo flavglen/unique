@@ -1,0 +1,217 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 19, 2015, 12:36:19 PM
+    Author     : Glen
+*/
+/*navigation hover color*/
+ul.nav a:hover { color: #6699FF !important; }
+/*navigation dropdown link color*/
+.nav .dropdown .dropdown-menu a{color:#6699FF !important;}
+/*navigation drop down hover color*/
+.nav .dropdown .dropdown-menu a:hover{color:#FF9966 !important;}
+
+/*navigation active color*/
+.navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: black !important;
+      background: #FF9966;
+ }
+ 
+/*change background of dropdown FOCUS*/
+ .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus
+ {
+      background: #FF9966;
+ }
+
+.header
+{
+    margin-top:0px;
+    padding-top:150px;
+    background-color:#FF9966;
+    text-align: center;
+    color:#fff;
+   
+}
+.navCustom
+{
+    margin:0;
+}
+.switchTheme
+{
+   padding-top:10px;
+   color:#fff;
+   font-weight:bold;
+}
+.navBgColor
+{
+    background-color: #000;
+   
+}
+.listColor li a
+{
+    color:white !important;
+    font-weight: bold;
+}
+
+.centerImage
+{
+
+    margin:0 auto;
+}
+.cssFun
+{
+    font-size:5em;
+}
+.line
+{
+    position: relative;
+    margin: 0 auto;
+    max-width:250px;
+    border:3px solid #fff;
+
+}
+.starBg
+{
+    color:#fff;
+    font-size: 24px;
+    padding:5px;
+    background-color:#FF9966;
+    position: relative;
+    top:-20px;
+}
+
+/*portpolio*/
+.portpolio
+{
+    background-color:#fff;
+    text-align: center;
+    color:#000000;
+   
+}
+.lineBlack
+{
+   border:3px solid #000000;
+}
+.startBgBlack
+{
+      color:#000;
+      font-size: 24px;
+      padding:5px;
+      background-color:#fff;
+      position: relative;
+      top:-20px;
+        
+}
+.technologyRow 
+{
+    width:80%;
+    margin:0 auto;
+   
+}
+.technologyRow div
+{
+    margin-top:15px;
+}
+
+/*about boostrap*/
+.aboutBootstrap
+{
+    margin-top:50px;
+    background-color:#FF9966;
+    text-align: center;
+    color:#000000;
+    
+}
+
+/*.aboutBootstrap .container .row
+{
+    padding-top:25px;
+}*/
+.aboutBootstrap .container {
+    padding: 25px 0 25px 0;
+}
+.aboutText
+{
+    color:#fff;
+}
+.row
+{
+    paddding:0;
+}
+.justifyText p
+{
+    	text-align: left;
+        font-size:16px;
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: bold;
+        color:#fff;
+        width:100%;
+}
+.btn-outline {
+    background-color: transparent;
+    border-color: #fff;
+    color: #563d7c;
+   
+}
+.btn-outline:hover
+{
+    background-color:#fff;
+}
+
+/*FOOTER*/
+.footer
+{
+    background-color:#000;
+    color:#fff;
+}
+.socialBtn
+{
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    border:2px solid #fff;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    color:#fff;
+    display: inline-block;
+}
+.socialBtn:hover
+{
+    background-color: #fff;
+    color:#000;
+}
+.footerBottom
+{
+    background:#383838 ;
+    color:#fff;
+}
+
+.centerAlign
+{
+    text-align: center;
+}
+.noPadding
+{
+    padding:0;
+}
+
+/*hover effect css3 */
+
+.hvr-shrink {
+    backface-visibility: hidden;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    display: inline-block;
+    transform: translateZ(0px);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    vertical-align: middle;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+    transform: scale(0.9);
+}
